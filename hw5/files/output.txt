@@ -1,0 +1,20 @@
+Given list:
+(
+( (“legs” (“X” 2)) ( (“legs” (“X” 2)) (“arms” (“X” 2)) ) )
+( (“legs” (“X” 4)) ( (“mammal” (“X”)) (“arms” (“X” 0)) ) )
+( (“mammal” (“horse”)) () )
+( (“arms” (“horse” 0)) () )
+( () (“legs” (“horse” 4)) )
+( () (“head” (“horse”)) )
+( () (“mammal” (“horse”)) )
+( () (“querry” (“howwrse” 45)) )
+)
+
+
+
+Queries:
+
+?(legs(horse4)): T
+?(head(horse)): NIL
+?(mammal(horse)): T
+?(querry(howwrse45)): NIL
